@@ -100,8 +100,6 @@ Key areas of focus:
 Insights from the SQL queries were visualized using **Microsoft Power BI**, 
 transforming results into an interactive dashboard.
 
-![COVID-19 Dashboard](dashboard.png)
-
 ### 📌 Dashboard Highlights
 
 | KPI | Value |
@@ -119,5 +117,14 @@ The dashboard includes the following visuals:
 - 🌍 **Total Cases by Location** — horizontal bar chart (India ranked highest)
 - 🗺️ **World Map** — geographic distribution of total cases by country
 - 🔽 **Country Filter** — interactive slicer to filter all visuals by location
+
+## 🛠️ Tools & Technologies
+
+- **MySQL**
+- **Power BI Desktop**
+- **Excel / CSV**
+- **Git & GitHub**
+
+
 
 
