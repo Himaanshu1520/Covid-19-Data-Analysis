@@ -26,3 +26,34 @@ Key fields include:
 - `new_deaths`
 - `population`
 
+### 2. `CovidVaccinations.csv`
+Contains vaccination-related data by country and date.  
+Key fields include:
+- `location`
+- `date`
+- `new_vaccinations`
+- `total_vaccinations`
+- `people_vaccinated`
+- `people_fully_vaccinated`
+
+### 4. `Final_Covid_19.csv`
+The master dataset created by **cleaning and joining** both CovidDeaths and 
+CovidVaccinations tables. Contains **28,000+ rows** covering countries worldwide.
+
+Key fields include:
+
+| Column | Description |
+|--------|-------------|
+| `continent` | Continent the country belongs to |
+| `location` | Country name |
+| `date` | Date of the recorded data |
+| `population` | Total population of the country |
+| `total_cases` | Cumulative confirmed COVID-19 cases |
+| `new_cases` | New cases recorded on that date |
+| `total_deaths` | Cumulative confirmed COVID-19 deaths |
+| `new_deaths` | New deaths recorded on that date |
+| `new_vaccinations` | New vaccinations administered on that date |
+| `total_vaccinations` | Cumulative total vaccinations given |
+| `people_vaccinated` | People who received at least one dose |
+| `people_fully_vaccinated` | People who completed full vaccination |
+
