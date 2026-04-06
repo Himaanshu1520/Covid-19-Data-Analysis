@@ -76,3 +76,48 @@ Tracks the global vaccination rollout by country and date, including:
 The cleaned and joined dataset combining both tables above.  
 Used as the primary source for all SQL analysis and Power BI visuals.
 
+## 🧠 SQL Analysis
+
+The SQL script performs data cleaning, transformation, and analysis.  
+Key areas of focus:
+
+- Percent population vaccinated per country
+- Deaths by continent
+- Continents with highest death count per population
+- Countries with highest infection rates
+- Total cases vs total deaths in India
+- Daily new cases globally over time
+- Countries with highest vaccination coverage
+- Relationship between vaccination rates and death rates
+- Countries with high cases but low death rates
+
+| SQL File | Description |
+|----------|-------------|
+| `Covid-19.sql` | Full data cleaning, views creation, and 11 analytical queries. |
+
+## 📊 Power BI Dashboard
+
+Insights from the SQL queries were visualized using **Microsoft Power BI**, 
+transforming results into an interactive dashboard.
+
+![COVID-19 Dashboard](dashboard.png)
+
+### 📌 Dashboard Highlights
+
+| KPI | Value |
+|-----|-------|
+| Total Cases | 5 Billion |
+| Total Deaths | 129.78 Million |
+| Total Vaccinations | 6 Billion |
+| Case Fatality Rate | 2.50% |
+| Vaccination Rate | 115.86% |
+
+The dashboard includes the following visuals:
+- 📈 **Daily Cases and Daily Deaths by Month** — trend line showing pandemic waves
+- 📊 **Total Cases and Total Deaths by Month** — cumulative monthly comparison
+- 📉 **Monthly Cases and Deaths** — bar chart showing monthly totals
+- 🌍 **Total Cases by Location** — horizontal bar chart (India ranked highest)
+- 🗺️ **World Map** — geographic distribution of total cases by country
+- 🔽 **Country Filter** — interactive slicer to filter all visuals by location
+
+
