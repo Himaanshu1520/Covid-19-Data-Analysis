@@ -57,3 +57,22 @@ Key fields include:
 | `people_vaccinated` | People who received at least one dose |
 | `people_fully_vaccinated` | People who completed full vaccination |
 
+## 📊 Data Description
+
+### 1. `CovidDeaths.csv`
+Tracks COVID-19 confirmed cases and deaths worldwide.  
+Each row represents a country on a specific date, capturing:
+- Daily and cumulative **case counts**
+- Daily and cumulative **death counts**
+- **Population** of each country
+
+### 2. `CovidVaccinations.csv`
+Tracks the global vaccination rollout by country and date, including:
+- Number of **people vaccinated** (at least one dose)
+- Number of **fully vaccinated** individuals
+- **Daily new vaccinations** recorded
+
+### 3. `Final_Covid_19.csv`
+The cleaned and joined dataset combining both tables above.  
+Used as the primary source for all SQL analysis and Power BI visuals.
+
