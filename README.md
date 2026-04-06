@@ -99,6 +99,8 @@ Key areas of focus:
 
 Insights from the SQL queries were visualized using **Microsoft Power BI**, 
 transforming results into an interactive dashboard.
+<img width="1304" height="740" alt="image" src="https://github.com/user-attachments/assets/9a88eb99-4e35-45bd-baba-5174257edeb2" />
+
 
 ### 📌 Dashboard Highlights
 
